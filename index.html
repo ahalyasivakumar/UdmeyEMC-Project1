@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy Clone | Online Learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   
+    <header class="navbar">
+        <div class="logo">
+            <h1>udemy</h1>
+        </div>
+
+        <a href="#" class="category-link">Categories</a>
+
+        <form class="search-box">
+            <input type="search" placeholder="Search for anything">
+            <button type="submit" aria-label="Search">🔍</button>
+        </form>
+
+        <nav class="nav-links">
+            <a href="#courses">Courses</a>
+            <a href="#topics">Topics</a>
+            <a href="#Tudmey">Teach on Udemy</a>
+        </nav>
+
+        <div class="nav-buttons">
+            <button class="login-btn">Log in</button>
+            <button class="signup-btn">Sign up</button>
+        </div>
+    </header>
+
+    
+    <nav class="menu-bar" aria-label="Course categories">
+        <a href="#">Development</a>
+        <a href="#">Business</a>
+        <a href="#">Finance & Accounting</a>
+        <a href="#">IT & Software</a>
+        <a href="#">Design</a>
+        <a href="#">Marketing</a>
+        <a href="#">Personal Development</a>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Learn new skills. Build your future.</h1>
+                <p>
+                    Explore million of online courses and learn
+                    something newly on every day.
+                </p>
+                <a href="#courses" class="hero-btn">Explore Courses</a>
+            </div>
+        </section>
+
+      
+        <section class="section" id="courses">
+            <h2>Recommended Courses</h2>
+            <p class="section-description">
+                Expand your knowledge with these popular courses.
+            </p>
+
+            <div class="course-container">
+
+                <article class="course-card">
+                    <img src="images/course1.webp"
+                         alt="Web development course">
+
+                    <div class="course-info">
+                        <h3>The Complete Web Development Course</h3>
+                        <p class="instructor">Ahalya Sivakumar</p>
+                        <p class="rating">4.8 ★★★★★ <span>(12,450)</span></p>
+                        <p class="price">₹499</p>
+                        <span class="badge">Bestseller</span>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <img src="images/course2.webp"
+                         alt="Python programming course">
+
+                    <div class="course-info">
+                        <h3>Python Programming for Beginners</h3>
+                        <p class="instructor">David Miller</p>
+                        <p class="rating">4.7 ★★★★★ <span>(8,320)</span></p>
+                        <p class="price">₹599</p>
+                        <span class="badge">Popular</span>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <img src="images/course3.webp"
+                         alt="UI and UX design course">
+
+                    <div class="course-info">
+                        <h3>UI/UX Design Masterclass</h3>
+                        <p class="instructor">Sarah Wilson</p>
+                        <p class="rating">4.6 ★★★★★ <span>(6,780)</span></p>
+                        <p class="price">₹449</p>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <img src="images/course4.jpg"
+                         alt="Digital marketing course">
+
+                    <div class="course-info">
+                        <h3>Digital Marketing Complete Guide</h3>
+                        <p class="instructor">Michael Brown</p>
+                        <p class="rating">4.5 ★★★★★ <span>(5,210)</span></p>
+                        <p class="price">₹399</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+      
+        <section class="section topics-section" id="topics">
+            <h2>Recommended Topics</h2>
+
+            <p class="section-description">
+                What would you like to learn next?
+            </p>
+
+            <form class="topic-form">
+                <label for="topic">Suggest a topic:</label>
+
+                <input
+                    type="text"
+                    id="topic"
+                    name="topic"
+                    placeholder="Enter a topic, e.g. ASP.NET Core">
+
+                <button type="submit">Suggest Topic</button>
+            </form>
+
+            <div class="topic-list">
+                <a href="#">Web Development</a>
+                <a href="#">Python</a>
+                <a href="#">Data Science</a>
+                <a href="#">Cloud Computing</a>
+                <a href="#">UI/UX Design</a>
+                <a href="#">Artificial Intelligence</a>
+            </div>
+        </section>
+
+        
+        <section class="section">
+            <h2>Popular Courses</h2>
+
+            <p class="section-description">
+                Explore courses learners are enjoying.
+            </p>
+
+            <div class="course-container">
+
+                <article class="course-card">
+                    <img src="images/course5.jpg"
+                         alt="Full-stack development course">
+
+                    <div class="course-info">
+                        <h3>Full Stack Web Development</h3>
+                        <p class="instructor">John Smith</p>
+                        <p class="rating">4.9 ★★★★★ <span>(18,500)</span></p>
+                        <p class="price">₹699</p>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <img src="images/course6.jpeg"
+                         alt="Python and data science course">
+
+                    <div class="course-info">
+                        <h3>Python and Data Science</h3>
+                        <p class="instructor">Emma Davis</p>
+                        <p class="rating">4.8 ★★★★★ <span>(15,200)</span></p>
+                        <p class="price">₹599</p>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <img src="images/course7.jpg"
+                         alt="Graphic design course">
+
+                    <div class="course-info">
+                        <h3>Graphic Design Essentials</h3>
+                        <p class="instructor">Olivia Taylor</p>
+                        <p class="rating">4.7 ★★★★★ <span>(9,800)</span></p>
+                        <p class="price">₹499</p>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <img src="images/course8.jpeg"
+                         alt="Business management course">
+
+                    <div class="course-info">
+                        <h3>Business Management Essentials</h3>
+                        <p class="instructor">James Wilson</p>
+                        <p class="rating">4.6 ★★★★★ <span>(7,400)</span></p>
+                        <p class="price">₹449</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-column">
+                <h3>Udemy</h3>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Blog</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Learning</h3>
+                <a href="#">Browse Courses</a>
+                <a href="#">Learning Paths</a>
+                <a href="#">Student Resources</a>
+                <a href="#">Mobile Learning</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Teaching</h3>
+                <a href="#">Teach on Udemy</a>
+                <a href="#">Instructor Community</a>
+                <a href="#">Teaching Resources</a>
+                <a href="#">Instructor Guidelines</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Support</h3>
+                <a href="#">Help Center</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Accessibility</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <h2>udemy</h2>
+            <p>© 2026 Udemy Clone. Created for educational purposes.</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
